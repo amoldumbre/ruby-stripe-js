@@ -1,24 +1,10 @@
 # README
+# ruby-stripe-js
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Integrated the Stripe payment gateway for B2B applications. One business can charge to another business for providing the services. Client can make the transfer to Contractor from the Agent's platform.
 
 Things you may want to cover:
 
-* Ruby version
+* Stripe connected account
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Payment Charges and transfers
