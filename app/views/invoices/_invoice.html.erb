@@ -1,0 +1,18 @@
+<div id="<%= dom_id invoice %>">
+
+  <p>
+    <strong>Description:</strong>
+    <%= invoice.description %>
+  </p>
+
+
+  <p>
+    <strong>Amount:</strong>
+    <%= invoice.amount %> cents
+  </p>
+
+  <p>
+    <%= link_to "Make Payment: $#{(invoice.amount/100.0).round}", checkout_path(invoice.id) %>
+  </p>
+
+</div>
